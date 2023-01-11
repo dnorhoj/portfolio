@@ -6,7 +6,7 @@
 </script>
 
 <template>
-  <a class="icon" {href} {target}>
+  <a class="icon" rel="me" {href} {target}>
     <Fa icon={icon} class="text-neutral-700 text-4xl" fw />
   </a>
 </template>
