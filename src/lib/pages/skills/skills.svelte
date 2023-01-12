@@ -4,7 +4,6 @@
   import {
     faLock,
     faCode,
-    faGlobe,
     faDatabase,
   } from "@fortawesome/free-solid-svg-icons";
   import {
@@ -13,6 +12,7 @@
     faHtml5,
     faGitAlt,
     faLinux,
+    faDocker,
   } from "@fortawesome/free-brands-svg-icons";
 </script>
 
@@ -22,7 +22,7 @@
     <div class="skill-container">
       <SkillCard icon={faLock} title="Cybersecurity" />
       <SkillCard icon={faCode} title="Software development" />
-      <SkillCard icon={faGlobe} title="Web development" />
+      <SkillCard icon={faDocker} title="Docker" />
       <SkillCard icon={faPython} title="Python" />
       <SkillCard icon={faJs} title="JavaScript" />
       <SkillCard icon={faHtml5} title="HTML/CSS" />
