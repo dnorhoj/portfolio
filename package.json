@@ -28,6 +28,7 @@
   },
   "type": "module",
   "dependencies": {
-    "svelte-fa": "^3.0.3"
+    "svelte-fa": "^3.0.3",
+    "sweetalert2": "^11.7.0"
   }
 }

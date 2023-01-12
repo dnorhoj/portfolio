@@ -1,13 +1,5 @@
 <script lang="ts">
-  import Icon from "$lib/components/icon.svelte";
-  import {
-    faGithub,
-    faDiscord,
-    faLinkedin,
-    faTwitter,
-    faYoutube,
-    faMastodon,
-  } from "@fortawesome/free-brands-svg-icons";
+  import SocialIcons from "$lib/components/social-icons.svelte";
   import { faClipboard } from "@fortawesome/free-regular-svg-icons";
   import Fa from "svelte-fa";
 
@@ -30,37 +22,7 @@
         <h1 class="p-5 text-center text-white font-semibold text-2xl underline">
           Social Links
         </h1>
-        <div class="flex justify-center p-5">
-          <Icon
-            href="https://github.com/dnorhoj"
-            icon={faGithub}
-            target="_blank"
-          />
-          <Icon
-            href="javascript:alert('Add me on discord: dnorhoj#1337')"
-            icon={faDiscord}
-          />
-          <Icon
-            href="https://www.linkedin.com/in/daniel-norhoj/"
-            icon={faLinkedin}
-            target="_blank"
-          />
-          <Icon
-            href="https://fosstodon.org/@dnorhoj"
-            icon={faMastodon}
-            target="_blank"
-          />
-          <Icon
-            href="https://twitter.com/dnorhoj"
-            icon={faTwitter}
-            target="_blank"
-          />
-          <Icon
-            href="https://youtu.be/dQw4w9WgXcQ"
-            icon={faYoutube}
-            target="_blank"
-          />
-        </div>
+        <SocialIcons class="flex justify-center p-5" />
       </div>
       <hr class="border-2 border-black border-opacity-50" />
       <div class="content">

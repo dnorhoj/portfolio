@@ -2,12 +2,15 @@
   import type { IconDefinition } from "@fortawesome/fontawesome-common-types";
   import Fa from "svelte-fa";
 
-  export let icon: IconDefinition, href: string, target: string = "self";
+  export let icon: IconDefinition,
+    href: string | null = null,
+    callback: ((e: Event | null) => void) | null = null;
 </script>
 
 <template>
-  <a class="icon" rel="me" {href} {target}>
-    <Fa icon={icon} class="text-neutral-700 text-4xl" fw />
+  <!-- svelte-ignore security-anchor-rel-noreferrer -->
+  <a class="icon" rel="me" {href} target="_blank" on:click={callback}>
+    <Fa {icon} class="text-neutral-700 text-4xl" fw />
   </a>
 </template>
 
