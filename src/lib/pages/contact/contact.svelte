@@ -62,7 +62,7 @@
         Check out the code on
         <a
           class="underline"
-          href="https://github.com/dnorhoj/dnorhoj.me"
+          href="https://github.com/dnorhoj/portfolio"
           target="_blank"
           rel="noreferrer"
         >
