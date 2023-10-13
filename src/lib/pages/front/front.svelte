@@ -7,7 +7,7 @@
     <div class="flex flex-col justify-center w-full">
       <h1 class="text-4xl lg:text-5xl titletext">Daniel Norhøj</h1>
       <h2 class="text-xl lg:text-2xl my-3 titletext">
-        Student | Developer | Ethical Hacking
+        Developer | Cybersecurity Enthusiast
       </h2>
       <hr
         class="border-2 mt-3 drop-shadow-lg 2xl:w-1/3 xl:w-1/2 lg:w-1/2 w-11/12 rounded-full self-center"
