@@ -20,12 +20,12 @@
       e?.preventDefault;
       Swal.fire({
         title: "Discord",
-        html: "Add me on discord! <b>dnorhoj#1337</b>",
+        html: "Add me on discord! <b>dnorhoj</b>",
         showCancelButton: true,
         confirmButtonText: "Copy",
       }).then((result) => {
         if (result.isConfirmed) {
-          navigator.clipboard.writeText("dnorhoj#1337");
+          navigator.clipboard.writeText("dnorhoj");
         }
       });
     }}
